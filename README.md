@@ -1,14 +1,36 @@
-# Unit Testing with JUnit 3 - App Example
+# Unit Testing with JUnit 3 - Calculator Project
 
 ## Overview
 
-This repository demonstrates a simple example of unit testing in Java using JUnit 3. The `App.java` class contains basic arithmetic operations such as addition, subtraction, multiplication, and division. The `AppTest.java` class is written to test these operations using JUnit 3.
+This project is a simple Java-based Calculator application designed to perform basic arithmetic operations. It includes unit tests using JUnit, making it an excellent tool for practicing software testing techniques.
+
+## Features
+Perform basic arithmetic operations:
+
+-Addition
+-Subtraction
+-Multiplication
+-Division
+
+Includes JUnit-based unit tests to validate functional
 
 ## Requirements
 
 - Java 8 or above
 - JUnit 3.8.1
 - Maven (for project management)
+##How to Run the Application
+
+Compile the project:
+In your IDE, build the project using the build option.
+Or, use the terminal:
+![image](https://github.com/user-attachments/assets/1a478f43-76ce-4124-8c52-aee73d5c9bd1)
+
+Run the application:
+In your IDE, run the Calculator class.
+Or, use the terminal:
+
+![image](https://github.com/user-attachments/assets/4cf09524-a949-4539-a3b0-45784d236bff)
 
 ## Running Tests
 
@@ -16,6 +38,16 @@ This repository demonstrates a simple example of unit testing in Java using JUni
 2. Navigate to the project directory.
 3. Run the tests using Maven by executing the following command:
 ![image](https://github.com/user-attachments/assets/9bd73429-cbca-42e5-80ad-0382b48d1ca8)
+
+## How the Project is Tested
+
+Unit tests are written to validate the operations for different scenarios:
+
+  -Normal cases (e.g., 5 + 3 = 8)
+
+  -Edge cases (e.g., division by zero, negative numbers, large values).
+
+Comprehensive assertions ensure the correctness of all arithmetic methods.
 
 ## Project Structure
 
